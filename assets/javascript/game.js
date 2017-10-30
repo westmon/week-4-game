@@ -31,7 +31,7 @@ function reset(){
 reset();
 
 
-  $("#yellow").on("click", function() {
+  $("#green").on("click", function() {
   		TotalScore = TotalScore + yellowValue;
   		$("#score").text(TotalScore);
 
