@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<meta charset="UTF-8">
+	<title>CrystalGame</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 id="title">Crystal Collector</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-5" id="tally">
+				<h3>Total Score: <span id="score"></span></h3>
+			</div>
+
+			<div class="col-md-2"></div>
+
+			<div class="col-md-5" id="winloss">
+				<h3>Win: <span id="win"></span></h3>
+				<h3>Loss:<span id="loss"></span></h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2 id="randomawesomeness">Random Number:</h2>
+				<p><span id="random"></span></p>
+			</div>
+		</div>
+
+		<div class="row crystal">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-2">
+				<img id="yellow" src="assets/images/yellow_crystal.png">
+			</div>
+			<div class="col-sm-2">
+				<img src="assets/images/blue_crystal.png" id="blue">
+			</div>
+			<div class="col-sm-2">
+				<img src="assets/images/red.png" id="red">
+			</div>
+			<div class="col-sm-2">
+				<img src="assets/images/big.png" id="multi">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12" id="instructions">
+				<p>You will be given a random number at the start of the game.
+				The objective is to match your total score with the random number that is displayed.
+				The value of each crystal is hidden from you until you click on it. Make sure to not surpass the random number, or you'll lose.
+				Each time the game starts, the value of the random number, and the value of the crystals, changes.</p>
+			</div>
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="assets/javascript/game.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+	
+</body>
+</html>

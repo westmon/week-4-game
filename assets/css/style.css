@@ -1,0 +1,46 @@
+
+body {
+	background-image: url("../images/wool.png");
+}
+
+.container {
+	text-align: center;
+	
+}
+
+img {
+	max-width: 80%;
+}
+
+#title {
+	padding: 20px;
+	color: #fcf944;
+	font-size: 400%;
+	margin-top: 100px;
+}
+
+#tally {
+	color: green;
+	padding: 20px;
+}
+
+#winloss {
+	padding: 20px;
+	color: #e2e1de;
+}
+
+#randomawesomeness {
+	color: #599cf9;
+}
+
+#random {
+	color: #ea199a;
+	font-size: 300%;
+}
+
+#instructions {
+	color: #bcbab5;
+	padding-top: 80px;
+	text-align: justify;
+	text-align: center;
+}
